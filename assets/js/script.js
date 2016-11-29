@@ -14,4 +14,16 @@ $(document).ready(function(){
 	}, function(){
 	$(this).css("color", "white");
 	});
+	$("#about-button").click(function(){
+		$("#about-section").show();
+	});
+	$("#people-button").click(function(){
+		$("#people-section").show();
+	});
+	$("#about-button").click(function(){
+		$("#people-section").hide();
+	});
+	$("#people-button").click(function(){
+		$("#about-section").hide();
+	})
 });
