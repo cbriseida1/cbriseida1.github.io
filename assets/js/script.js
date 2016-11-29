@@ -25,5 +25,5 @@ $(document).ready(function(){
 	});
 	$("#people-button").click(function(){
 		$("#about-section").hide();
-	})
+	});
 });
