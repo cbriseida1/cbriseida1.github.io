@@ -1,4 +1,10 @@
 $(document).ready(function(){
+	$("#contact-button").mouseenter(function(){
+		$(".dropdown-content").slideDown("slow");
+	});
+	$(".dropdown").mouseleave(function(){
+		$(".dropdown-content").slideUp("slow");
+	});
 	$("li a").hover(function(){
     $(this).css("color", "#2A2C31");
 	}, function(){
